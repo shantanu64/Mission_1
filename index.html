@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato Clone</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com"/>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet"/>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <!--Navbar-->
+
+    <header>
+        <nav class="navbar">
+            <div class="navbar_brand">
+                <img src="./assets/images/logo.png" alt="zomato logo" class="navbar_logo" />
+            </div>
+
+            <div class="navbar_nav_items">
+                <button class="nav_item button_primary">Order Food</button>
+
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+
+        <!--Hero Section-->
+
+        <section class="hero_container">
+            <div class="hero_image_container">
+                <img class="hero_image" src="./assets/images/hero.jpg" alt="Image depicting brand" />
+                <img class="hero_image_shape" src="./assets/images/heroShape.svg"/>
+                <img class="hero_image_pattern" src="./assets/images/herobgpattren.svg" />
+                
+
+            </div>
+            <div class="hero_desription">
+                <h1 class="hero_text">Order food from favourite restraurants near you.</h1>
+                <button class="button_primary">Order Now</button>
+            </div>
+
+        </section>
+
+        <!--Video-->
+
+        <section>
+            <div class="video">
+            <iframe class="video_item"
+            width="560"
+            height="315" 
+            src="https://www.youtube-nocookie.com/embed/6FSG9aq9UK4?controls=0" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; replay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+            </iframe>
+            </div>
+        </section>
+
+        <!--Explore Menu Card-->
+
+    <section class="explore_menu_container">
+        <h1 class="explore_menu_text">
+            Explore Our Menu
+        </h1>
+        <div class="explore_menu_gradient_bg"></div>
+
+        <div class="explore_menu_lists">
+
+            <!--Burger-->
+
+            <div class="food_menu_card">
+                <img class="food_image" src="./assets/images/burger.jpg" alt="burger" />
+                <div class="food_menu_card_description">
+                    <h3 class="food_title">Burgers</h3>
+                    <p class="food_restaurants">Burger King, Mcdonalds, Burger Place <span style="color: red;">+3</span></p>
+                </div>
+            </div>
+
+            <!--Pizza-->
+
+            <div class="food_menu_card" id="pizza_card">
+                <img class="food_image" src="./assets/images/pizza.jpg" alt="burger" />
+                <div class="food_menu_card_description">
+                    <h3 class="food_title">Pizza</h3>
+                    <p class="food_restaurants">Pizza Hut, Domino's Pizza <span style="color: red;">+3</span></p>
+                </div>
+            </div>
+
+            <!--Ice cream-->
+
+            <div class="food_menu_card">
+                <img class="food_image" src="./assets/images/iceCream.jpg" alt="burger" />
+                <div class="food_menu_card_description">
+                    <h3 class="food_title">Ice Creams</h3>
+                    <p class="food_restaurants">Baskin Robins, Ibaco <span style="color: red;">+3</span></p>
+                </div>
+            </div>
+
+        </div>
+        <div class="explore_menu_view_more">
+            <button class="button_primary">View More</button>
+        </div>
+    </section>
+    
+    <!--Resturants Container-->
+    
+    <section class="restaurants_container">
+        <h1 class="restaurants_description">Order From 100s of restaurants</h1>
+        <div class="restaurants_flex">
+            <div class="restaurants_flex_row_one">
+                <div class="restaurant_1">
+                <img 
+                class="restaurant_1_image" 
+                src="./assets/images/restaurant1.jpg" 
+                alt="restaurant 1" 
+                />
+                </div>
+                <div class="restaurant_2">
+                <img 
+                class="restaurant_2_image" 
+                src="./assets/images/restaurant2.jpg" 
+                alt="restaurant 2" 
+                />
+                </div>
+
+            </div>
+            <div class="restaurants_flex_row_two">
+                <div class="restaurant_3">
+                <img 
+                class="restaurant_3_image" 
+                src="./assets/images/restaurant3.jpg" 
+                alt="restaurant 3" 
+                />
+                </div>
+                <div class="restaurant_4">
+                <img 
+                class="restaurant_4_image" 
+                src="./assets/images/restaurant4.jpg" 
+                alt="restaurant 4" 
+                />
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--Get Updated-->
+
+    <section class="stay_updated_container">
+
+            <h3 class="stay_updated_text">Stay Updated</h3>
+            
+            <div class="update_flex">
+                <input class="stay_updated_input" placeholder="example@gmail.com" type="email"/>
+                <button class="button_primary" id="button_update">Get Updates</button>
+            </div>
+            
+    </section>
+
+    <!--Quote-->
+
+    <section class="quote_container">
+        <div class="image_overlay"></div>
+        <h3 class="quote_text">When a man's stomach is full it makes no difference whether he is rich or poor.</h3>
+        
+    </section> 
+    </main>
+
+    <!--Footer-->
+
+    <footer class="footer_container">
+        <div class="footer_logo">
+            <img src="./assets/images/logo.png" alt="logo" /> 
+        </div>
+        <div class="footer_text">
+            Pricing<Br>
+            Terms and Conditions<br>
+            Partnership<br>
+            Career<br>
+            Contact
+        </div>
+    </footer>
+</body>
+</html>
