@@ -258,21 +258,7 @@ border-radius: 7px;
 
 /* Media Queries*/
 
-@media (min-width:320px) {
-    .stay_updated_text{
-        align-self: center;
-    }
-    .stay_updated_flex{
-        justify-content: center;
-    }
-    
-}
 
-@media (min-width: 375px){
-.stay_updated_text{
-        align-self: center;
-    }
-}
 @media (min-width: 768px){
 
 .navbar{
